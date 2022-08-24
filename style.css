@@ -1,0 +1,123 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position:center;
+    background-size: cover;
+    padding: 18rem 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+.first h1{
+    font-size: 4rem;
+    color: #212529;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.first h3{
+    font-weight: 700;
+    font-size: 27px;
+    color: #212529;
+}
+.first a{
+    color: white;
+    background-color: #1d809f;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+a:hover{
+    box-shadow: 11px 10px 20px 0px #212529;
+    background-color: #0c647e;
+}
+.second{
+    background-color: aliceblue;
+    padding: 7.5rem;
+    text-align: center;
+}
+.second h2{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #212529;
+}
+.second p{
+    margin-top: 20px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.second .likeButton{
+    color: white;
+    background-color: #212529;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 45px;
+    transition: 0.5s;
+}
+.likeButton :hover{
+    box-shadow: 11px 10px 20px 0px #212529;
+    background-color: #08090a;
+}
+.third{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment:fixed;
+    padding: 15rem 0;
+}
+.third h2{
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.third a{
+    color: white;
+    background-color: #1d809f;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.fourth{
+    background-color: #1D809F;
+    padding: 7.5rem;
+    text-align: center;
+}
+.fourth h2{
+    color: white;
+    font-weight: 700;
+    font-size: calc(1.325rem + 0.9vw);
+}
+.fourth a{
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.fourth .whitebut{
+    color: #212529;
+    background-color: white;
+    margin-right: 15px;
+}
+.fourth .blackbut{
+    color: white;
+    background-color: #212529;
+    margin-left: 15px;
+}
